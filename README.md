@@ -4,3 +4,5 @@ UF-CPP is a self organized small size coding practice Meetup. This repository ho
 ## M002 (05/31/2017): Dynamic Programming (DP)
 Organizer: Vaibhav Gupta.
 * [Fibonacci](./Fibonacci)
+* [House Robbery](./House%20Robbery)
+* [Triple Step](./Triple%20Step)
