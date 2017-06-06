@@ -9,6 +9,6 @@ Organizer: Vaibhav Gupta.
 
 ### M003 (06/03/2017): Tree
 Organizer: Bhaveek Desai.
-* [Decide BST](./Decide BST)
+* [Decide BST](./Decide%20BST)
 * [Convert Sorted Array to Binary Search Tree](./Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
 * [Find Mode in Binary Search Tree](./Find%20Mode%20in%20Binary%20Search%20Tree)
