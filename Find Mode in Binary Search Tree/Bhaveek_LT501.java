@@ -1,8 +1,10 @@
-import java.util.ArrayList;
-
 /**
  * Created by bhaveekdesai on 6/2/17.
+ * Time Complexity: O(n) | Space Complexity: O(n) 
  */
+ 
+import java.util.ArrayList;
+
 public class Bhaveek_LT501 {
     ArrayList<Integer> bstArrayList = new ArrayList();
 

@@ -1,4 +1,8 @@
 /**
+ * Created by bhaveekdesai on 6/2/17.
+ * Time Complexity: O(log n) | Space Complexity: O(n log n) 
+ */
+ /**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -10,58 +14,29 @@
 import java.util.ArrayList;
 
 public class Bhaveek_DecideBST {
-     ArrayList<Integer> bstArrayList = new ArrayList();
+   
+    int lastVal = -1;
 
-    public int[] findMode(TreeNode root) {
-        //inorder insertion
-        bstToArray(root);
-
-        if (bstArrayList.size() == 0){
-            return new int[]{};
-        }
-        int maxCount = 1;
-        int count = 1;
-
-        ArrayList<Integer> modesArrayList = new ArrayList<Integer>();
-
-        modesArrayList.add(bstArrayList.get(0));
-
-        for (int i = 1; i<bstArrayList.size(); i++){
-            int current = bstArrayList.get(i);
-            int prev = bstArrayList.get(i-1);
-
-            if (current == prev) {
-                count++;
-            } else {
-                count = 1;
-            }
-
-            if (count == maxCount){
-                modesArrayList.add(current);
-            } else if (count>maxCount){
-                maxCount = count;
-                modesArrayList.clear();
-                modesArrayList.add(current);
-            }
-        }
-
-        int[] modes = new int[modesArrayList.size()];
-        for (int i = 0; i<modes.length; i++) {
-            modes[i] = modesArrayList.get(i);
-        }
-
-        return modes;
+    boolean checkBST(Node root) {
+        
+        return bstTOal(root);
     }
 
-    public void bstToArray(TreeNode node) {
-        if (node != null) {
-           if (node.left != null) {
-                bstToArray(node.left);
+    public boolean bstTOal(Node root){
+        if(root != null){
+            
+            if (root.left != null) {
+                if(!bstTOal(root.left)) return false;
             }
-            bstArrayList.add(node.val);
-            if (node.right != null) {
-                bstToArray(node.right);
+                      
+            if (root.data<=lastVal) return false;
+            else lastVal = root.data;
+         
+            if (root.right != null) {
+                 if (!bstTOal(root.right)) return false;
             }
-        }
-    }   
+            
+       }
+        return true;
+    }
 }
