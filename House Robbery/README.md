@@ -2,14 +2,16 @@
 
 ## Brief Intro
 Tags: ___DP___, ___easy___.
-A child is running up a staircase with n steps and can hop either 1step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
+
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+
+Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
 
 ## Source
-* from CCI page 134. Solution/hints on page 342.
+* from [Leet Code Q198](https://leetcode.com/problems/house-robber/#/description).
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
+The Memoization solution can achieve ___O(N)___ time and ___O(N)___ space.
 
 ## Notes
-This question is actually an upgraded version of Fibonacci number.
-Using brutal force/recursion will result stack overflow/timeout. Time complexity will be ___O(3^n)___. Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
+N/A
