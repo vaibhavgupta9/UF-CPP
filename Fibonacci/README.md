@@ -11,11 +11,6 @@ In mathematics, the Fibonacci numbers are the numbers in the following integer s
 The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
 
 ## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+* The Memoization solution can achieve ___O(N)___ time and ___O(N)___ space
+* The recursion solution (most intuitive one) will have ___O(2^N)___ time complexity.
+* We can use only two variables to hold the first and second number. With the iterative solution, time complexity will be ___O(N)___ and space complexity will be ___O(1)___ . 
