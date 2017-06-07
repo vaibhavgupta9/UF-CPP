@@ -8,8 +8,9 @@ A child is running up a staircase with n steps and can hop either 1step, 2 steps
 * from CCI page 134. Solution/hints on page 342.
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
+Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
 
 ## Notes
 This question is actually an upgraded version of Fibonacci number.
-Using brutal force/recursion will result stack overflow/timeout. Time complexity will be ___O(3^n)___. Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
+* Using brutal force/recursion will result stack overflow/timeout. Time complexity will be ___O(3^n)___.
+* Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
