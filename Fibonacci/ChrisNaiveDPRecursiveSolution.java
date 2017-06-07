@@ -1,5 +1,3 @@
-package q366_Fibonacci;
-
 /**
  * Recursive solution is intuitive. But it will cause severe call stack problem like
  * stack overflow and too deep call stack, which will lead to a overtime(timeout) problem.

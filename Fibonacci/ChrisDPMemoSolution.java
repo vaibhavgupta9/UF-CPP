@@ -1,5 +1,3 @@
-package q366_Fibonacci;
-
 import java.util.HashMap;
 import java.util.Map;
 

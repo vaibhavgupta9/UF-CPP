@@ -1,5 +1,3 @@
-package q366_Fibonacci;
-
 /**
  * Using two variable iteration to avoid recursion and stack overflow problem.
  * O(n) time and O(1) space
