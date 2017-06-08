@@ -6,8 +6,7 @@ If you want, you can put a brief Intro to the question.
 
 ## Source
 brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx(link)](https://www.google.com "Google's Homepage")
+* from [leetcode q581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray "Shortest Unsorted Continuous Subarray")
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.

@@ -6,8 +6,8 @@ If you want, you can put a brief Intro to the question.
 
 ## Source
 brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx(link)](https://www.google.com "Google's Homepage")
+* from CCI(6th ed.) page 150, q10.3.
+* from [leetcode q033](https://leetcode.com/problems/search-in-rotated-sorted-array "Search in Rotated Sorted Array on Leetcode")
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
