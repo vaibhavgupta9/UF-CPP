@@ -12,3 +12,9 @@ Organizer: Bhaveek Desai.
 * [Decide BST](./Decide%20BST)
 * [Convert Sorted Array to Binary Search Tree](./Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
 * [Find Mode in Binary Search Tree](./Find%20Mode%20in%20Binary%20Search%20Tree)
+
+### M004 (06/03/2017): Sorting
+Organizer: Sudeep Gauraang Rege
+* [Merge Sorted Array](./Merge%20Sorted%20Array)
+* [Search in Rotated Sorted Array](./Search%20in%20Rotated%20Sorted%20Array)
+* [Shortest Unsorted Continuous Subarray](./Shortest%20Unsorted%20Continuous%20Subarray)
