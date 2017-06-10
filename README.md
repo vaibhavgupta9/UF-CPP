@@ -3,9 +3,9 @@ UF-CPP is a self organized small size coding practice Meetup. This repository ho
 
 ### M005 (06/09/2017): Two Pointers
 Organizer: Chris
-* [Two Sum](./Two Sum)
-* [Three Sum](./Three Sum)
-* [Minimum Window Substring](./Minimum Window Substring)
+* [Two Sum](./Two%20Sum)
+* [Three Sum](./Three%20Sum)
+* [Minimum Window Substring](./Minimum%20Window%20Substring)
 
 ### M004 (06/03/2017): Sorting
 Organizer: Sudeep Gauraang Rege
