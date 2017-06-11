@@ -17,7 +17,6 @@ A solution set is:
 ]
 ```
 ## Source
-brief intro to the source of this question. e.g.,
 * from [leetcode q015](https://leetcode.com/problems/3sum "Three Sum")
 
 ## Complexity/Analysis
