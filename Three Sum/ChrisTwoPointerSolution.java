@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * O(N^2) time, O(1) space
  */
-public class TwoPointerSolution implements Solution {
+public class ChrisTwoPointerSolution implements Solution {
 
     @Override
     public List<List<Integer>> threeSum(int[] nums) {

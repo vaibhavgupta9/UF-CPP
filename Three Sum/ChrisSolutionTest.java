@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class SolutionTest {
+public class ChrisSolutionTest {
 
     Solution sol;
 
