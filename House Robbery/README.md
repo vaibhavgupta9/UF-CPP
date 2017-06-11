@@ -8,10 +8,10 @@ You are a professional robber planning to rob houses along a street. Each house 
 Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.
 
 ## Source
-* from [Leet Code Q198](https://leetcode.com/problems/house-robber/#/description).
+* from [Leet Code Q198](https://leetcode.com/problems/house-robber).
 
 ## Complexity/Analysis
-The Memoization solution can achieve ___O(N)___ time and ___O(N)___ space.
+The Memoization solution can achieve ___O(N)___ time and ___O(N)___ space. Optimal solution can achieve ___O(N)___ time and ___O(1)___ space.
 
 ## Notes
 N/A
