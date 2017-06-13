@@ -8,9 +8,10 @@ A child is running up a staircase with n steps and can hop either 1step, 2 steps
 * from CCI page 134. Solution/hints on page 342.
 
 ## Complexity/Analysis
-Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
+the bottom-up solution will take ___O(n)___ time and ___O(1)___ space for each query. The mem(top-down) solution takes ___O(n)___ time for first several queries, but for queries in the range it takes ___O(1)___ time to access.
 
 ## Notes
 This question is actually an upgraded version of Fibonacci number.
 * Using brutal force/recursion will result stack overflow/timeout. Time complexity will be ___O(3^n)___.
-* Memoization solution can achieve ___O(n)___ space and ___O(n)___ time.
+* Memoization (top-down) solution can achieve ___O(n)___ space and ___O(n)___ time.
+* bottom-up will achieve ___O(n)___ time and ___O(1)___ space
