@@ -14,8 +14,8 @@ public class SolutionTest {
 
     @Before
     public void setUp() throws Exception {
-//        sol = new DPMemSolution();
-        sol = new DPIterSolution();
+//        sol = new ChrisDPMemSolution();
+        sol = new ChrisDPIterSolution();
     }
 
     @Test

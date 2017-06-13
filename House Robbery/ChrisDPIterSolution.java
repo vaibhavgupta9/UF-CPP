@@ -3,7 +3,7 @@ package q198_HouseRobber;
 /**
  * Created by chris on 6/11/17.
  * Iterative solution, do not need extra space to store results. Just store the last two steps
- * O(n) time, O(1) space.
+ * O(n) time, O(1) space. bottom up dp
  */
 public class ChrisDPIterSolution implements Solution {
 
@@ -12,27 +12,18 @@ public class ChrisDPIterSolution implements Solution {
         if (nums == null || nums.length == 0)
             return 0;
 
-        int len = nums.length, firstVal = 0, secondVal = 0, max = 0;
+        int len = nums.length, mOne = 0, mTwo = 0, curr = 0;
 
-        if (len > 0) {
-            firstVal = nums[0];
-            max = firstVal;
-        }
-        if (len > 1) {
-            max = Math.max(firstVal, nums[1]);
-            secondVal = max;
-        }
-
-        for (int i = 2; i < len; i++) {
-            if (firstVal + nums[i] > secondVal) {
-                max = firstVal + nums[i];
-                firstVal = secondVal;
-                secondVal = max;
+        for (int i = 0; i < len; i++) {
+            if (mOne + nums[i] > mTwo) {
+                curr = mOne + nums[i];
+                mOne = mTwo;
+                mTwo = curr;
             } else {
-                firstVal = secondVal;
+                mOne = mTwo;
             }
         }
 
-        return max;
+        return curr;
     }
 }
