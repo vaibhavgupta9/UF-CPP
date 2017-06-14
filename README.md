@@ -24,3 +24,4 @@ Organizer: Vaibhav Gupta.
 * [Fibonacci](./Fibonacci)
 * [House Robbery](./House%20Robbery)
 * [Triple Step](./Triple%20Step)
+* bonus question: [Count and Say](./Count%20and%20Say)

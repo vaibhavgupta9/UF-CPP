@@ -1,3 +1,6 @@
+/**
+* O(n) time, O(n) space.
+*/
 public class Bhaveek_CountAndSay {
 
     public String countAndSay(int n) {
