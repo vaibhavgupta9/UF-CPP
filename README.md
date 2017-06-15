@@ -1,6 +1,12 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### M006 (06/14/2017): LinkedList
+Organizer: Michael
+* [Insert Node in Sorted Linked List](./Insert%20Node%20in%20Sorted%20Linked%20List)
+* [Copy List with Random Pointer](./Copy%20List%20with%20Random%20Pointer)
+* [Reverse Nodes in k-Group](./Reverse%20Nodes%20in%20k-Group)
+
 ### M005 (06/09/2017): Two Pointers
 Organizer: Chris
 * [Two Sum Sorted Input Array](./Two%20Sum%20Sorted%20Input%20Array)
