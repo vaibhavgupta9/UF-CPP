@@ -3,7 +3,9 @@ UF-CPP is a self organized small size coding practice Meetup. This repository ho
 
 ### M007 (06/16/2017): Graph and BFS
 Organizer: Himanshu
-
+* [BFS Shortest Reach](./BFS%20Shortest%20Reach)
+* [Friend Circles](./Friend%20Circles)
+* [Number of Islands](./Number%20of%20Islands)
 
 ### M006 (06/14/2017): LinkedList
 Organizer: Michael
