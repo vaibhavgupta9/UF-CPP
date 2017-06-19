@@ -4,12 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BFSShortestPath {
+public class Himanshu_BFSShortestPath {
 
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
 		int t=in.nextInt();
-		BFSShortestPath obj=new BFSShortestPath();
+		Himanshu_BFSShortestPath obj=new Himanshu_BFSShortestPath();
 		while(t>0){
 			int n=in.nextInt();
 			int m=in.nextInt();

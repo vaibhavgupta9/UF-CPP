@@ -1,4 +1,4 @@
-public class FriendCircles {
+public class Himanshu_FriendCircles {
     class UnionFind {
         private int count = 0;
         private int[] parent, rank;

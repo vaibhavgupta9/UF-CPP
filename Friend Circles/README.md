@@ -1,24 +1,35 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
 ## Brief Intro
-Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___
+Tags:___Medium___, ___Graph___, ___BFS___, ___DFS___, __Union Find__
 
-If you want, you can put a brief Intro to the question.
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com "Google's Homepage")
+* from [leetcode q547](https://leetcode.com/problems/friend-circles/#/description)
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
+The optimal solution can achieve ___O(N*N)___ time and ___O(N)___ space.
 
 ## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
+The problem is similar to finding number of connected components in a graph. It is an implementation of standard Union Find algorithm. The biggest misconcption is people confuse this problem with Standard BFS or DFS,but it's little different then it, though modified BFS or DFS will work for this problem. Following are some of the corner cases when you implement it using standard graph traversal algorithm or incorrect implementation of UF algorithm:
+-   [[1,0,0,1],
+    [0,1,1,0],
+    [0,1,1,1],
+    [1,0,1,1]]
+- [[1,1,0,0,0,0,0,1,0,0,0,0,0,0,0],
+[1,1,0,0,0,0,0,0,0,0,0,0,0,0,0],
+[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,1,0,1,1,0,0,0,0,0,0,0,0],
+[0,0,0,0,1,0,0,0,0,1,1,0,0,0,0],
+[0,0,0,1,0,1,0,0,0,0,1,0,0,0,0],
+[0,0,0,1,0,0,1,0,1,0,0,0,0,1,0],
+[1,0,0,0,0,0,0,1,1,0,0,0,0,0,0],
+[0,0,0,0,0,0,1,1,1,0,0,0,0,1,0],
+[0,0,0,0,1,0,0,0,0,1,0,1,0,0,1],
+[0,0,0,0,1,1,0,0,0,0,1,1,0,0,0],
+[0,0,0,0,0,0,0,0,0,1,1,1,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0],
+[0,0,0,0,0,0,1,0,1,0,0,0,0,1,0],
+[0,0,0,0,0,0,0,0,0,1,0,0,0,0,1]]
 
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+The above test cases are 2-D array which you need to supply as method parameter.

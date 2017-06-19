@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class NumberOfIslands {
+public class Himanshu_NumberOfIslands {
 
 	public static int numIslands(char[][] grid) {
 		int r = grid.length;
