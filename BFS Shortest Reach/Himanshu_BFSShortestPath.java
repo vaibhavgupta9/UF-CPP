@@ -31,7 +31,7 @@ public class Himanshu_BFSShortestPath {
 	public int[] bfs(int[][] matrix,int s){
 		int[] dist=new int[matrix.length];
 		for(int i=0;i<dist.length;i++)
-			dist[i]=Integer.MAX_VALUE;
+			dist[i]=-1;
 		dist[s]=0;
 		Queue<Integer> queue=new LinkedList<>();
 		HashSet<Integer> visited=new HashSet<>();
