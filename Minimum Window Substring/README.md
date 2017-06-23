@@ -1,23 +1,18 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
 ## Brief Intro
-Tags: ___DP___, ___easy___, ___Tree___
-If you want, you can put a brief Intro to the question.
+Tags: ___Two Pointers___, ___Hard___, ___Substring___
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx(link)](https://www.google.com "Google's Homepage")
+* from [leetcode q076](https://leetcode.com/problems/minimum-window-substring "Minimum Window Substring")
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
+The two pointers solution using one container (Hashtable) to achieve ___O(N)___ time and ___O(N)___ space.
 
 ## Notes
 The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
+* null String
+* null Substring/template
+* the String does not cover the entire template
 
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+There is also a great explanation and template from [leetcode discussion](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems?page=1) for such kind of Substring problems.

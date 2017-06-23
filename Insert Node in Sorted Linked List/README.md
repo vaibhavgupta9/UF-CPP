@@ -2,7 +2,15 @@
 
 ## Brief Intro
 Tags: ___Linkedlist___, ___easy___
-If you want, you can put a brief Intro to the question.
+
+Given a node from a cyclic linked list which has been sorted, write a function to insert a value into the list such that it remains a cyclic sorted list. The given node can be any single node in the list.
+
+Notice: _3->5->1_ is a cyclic list, so 3 is next node of 1.  _3->5->1_ is the same with _5->1->3_
+Example:
+```
+Given a list, and insert a value 4: 3->5->1       
+return 5->1->3->4
+```
 
 ## Source
 brief intro to the source of this question. e.g.,
@@ -10,14 +18,7 @@ brief intro to the source of this question. e.g.,
 * similar question on [GeeksforGeeks](http://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/) 
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N^2)___ space. Or another solution and achieve xxxxxxx.
+The solution can achieve ___O(N)___ time and ___O(1)___ space.
 
 ## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+N/A
