@@ -5,8 +5,8 @@ UF-CPP is a self organized small size coding practice Meetup. This repository ho
 Organizer: Bhaveek
 * [Dijkstra Shortest Reach 2](./Dijkstra%20Shortest%20Reach%202)
 * [Find Minimum Weight Cycle in an Undirected Graph](./Find%20Minimum%20Weight%20Cycle%20in%20an%20Undirected%20Graph)
-* [Second Shortest Path Between Nodes](./Second%20Shortest%20Path%20Between%20Nodes)
 * [Word Ladder](./Word%20Ladder)
+* [Second Shortest Path Between Nodes](./Second%20Shortest%20Path%20Between%20Nodes)
 
 ### M008 (06/21/2017): Dynamic Programming, PT2
 Organizer: Vaibhav
