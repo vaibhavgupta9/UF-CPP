@@ -1,6 +1,33 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### M010 (06/28/2017): Tree
+Organizer: Sudeep
+* [Lowest Common Ancestor of a Binary Tree](./Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree)
+* [House Robber III](./House%20Robber%20III)
+* [Minimum Height Trees](./Minimum%20Height%20Trees)
+* [Serialize and Deserialize BST](./Serialize%20and%20Deserialize%20BST)
+
+### M009 (06/23/2017): Graph, PT2: Dijkstra
+Organizer: Bhaveek
+* [Dijkstra Shortest Reach 2](./Dijkstra%20Shortest%20Reach%202)
+* [Find Minimum Weight Cycle in an Undirected Graph](./Find%20Minimum%20Weight%20Cycle%20in%20an%20Undirected%20Graph)
+* [Word Ladder](./Word%20Ladder)
+* [Second Shortest Path Between Nodes](./Second%20Shortest%20Path%20Between%20Nodes)
+
+### M008 (06/21/2017): Dynamic Programming, PT2
+Organizer: Vaibhav
+* [Unique Paths](./Unique%20Paths)
+* [Maximum Subarray](./Maximum%20Subarray)
+* [Robot in a Grid](./Robot%20in%20a%20Grid)
+* [Longest Palindromic Subsequence](./Longest%20Palindromic%20Subsequence)
+
+### M007 (06/16/2017): Graph and BFS
+Organizer: Himanshu
+* [BFS Shortest Reach](./BFS%20Shortest%20Reach)
+* [Friend Circles](./Friend%20Circles)
+* [Number of Islands](./Number%20of%20Islands)
+
 ### M006 (06/14/2017): LinkedList
 Organizer: Michael
 * [Insert Node in Sorted Linked List](./Insert%20Node%20in%20Sorted%20Linked%20List)

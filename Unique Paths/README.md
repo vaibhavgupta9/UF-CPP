@@ -1,14 +1,18 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-## Brief Intro
+# Unique Paths
 Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___
 
-If you want, you can put a brief Intro to the question.
+A robot is located at the top-left corner of a _m x n_ grid (marked 'Start' in the diagram below).
+
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+How many possible unique paths are there?
+
+![Maze](figure.png)
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com "Google's Homepage")
+* from [leetcode q062](https://leetcode.com/problems/unique-paths "Unique Paths")
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
