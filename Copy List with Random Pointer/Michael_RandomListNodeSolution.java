@@ -4,7 +4,7 @@ import java.util;
  * O(N) time, O(N) space
  */
 
-class RandomListNode { //RandomList Node which has a next and a random
+class Michael_RandomListNodeSolution { //RandomList Node which has a next and a random
 	int label;
 	RandomListNode next, random;
 	RandomListNode(int x) {this.label = x;}
