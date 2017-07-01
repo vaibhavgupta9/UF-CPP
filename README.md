@@ -1,6 +1,13 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### M011 (06/30/2017): String
+Organizer: Shruti
+* [String to Integer atoi](String%20to%20Integer%20atoi)
+* [Wildcard Matching](Wildcard%20Matching)
+* [Generate Parentheses](Generate%20Parentheses)
+* [Longest Palindromic Substring](Longest%20Palindromic%20Substring)
+
 ### M010 (06/28/2017): Tree
 Organizer: Sudeep
 * [Lowest Common Ancestor of a Binary Tree](./Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree)
