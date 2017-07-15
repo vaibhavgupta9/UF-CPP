@@ -1,7 +1,7 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
 ## Brief Intro
-Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___
+Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___
 
 If you want, you can put a brief Intro to the question.
 
