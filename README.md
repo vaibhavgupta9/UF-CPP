@@ -1,7 +1,7 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
-### M015 (07/10/2017): DP, Backtracking. Organizer: Shruti, Vaibhav
+### M015 (07/14/2017): DP, Backtracking. Organizer: Shruti, Vaibhav
 * [Longest Increasing Subsequence](./Longest%20Increasing%20Subsequence)
 * [Average of Levels in Binary Tree](./Average%20of%20Levels%20in%20Binary%20Tree)
 * [N Queens](./N%20Queens)
