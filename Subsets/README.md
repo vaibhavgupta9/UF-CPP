@@ -1,14 +1,29 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-## Brief Intro
-Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___
+## Subsets
+Tags: ___Array___, ___Medium___, ___Backtracking___, ___Bit Manipulation___
 
-If you want, you can put a brief Intro to the question.
+Given a set of __distinct__ integers, _nums_, return all possible subsets.
+
+Note: The solution set must not contain duplicate subsets.
+
+For example,
+If __nums__ = `[1,2,3]`, a solution is:
+```
+[
+  [3],
+  [1],
+  [2],
+  [1,2,3],
+  [1,3],
+  [2,3],
+  [1,2],
+  []
+]
+```
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com "Google's Homepage")
+* from [leetcode q078](https://leetcode.com/problems/subsets "Subsets")
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.

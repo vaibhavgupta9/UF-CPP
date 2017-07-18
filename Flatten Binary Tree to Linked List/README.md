@@ -1,14 +1,36 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-## Brief Intro
-Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___
+## Flatten Binary Tree to Linked List
+Tags: ___Medium___, ___Tree___, ___DFS___
 
-If you want, you can put a brief Intro to the question.
+Given a binary tree, flatten it to a linked list in-place.
+
+For example,
+Given
+```
+    1
+   / \
+  2   5
+ / \   \
+3   4   6
+```
+The flattened tree should look like:
+```
+   1
+    \
+     2
+      \
+       3
+        \
+         4
+          \
+           5
+            \
+             6
+```
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com "Google's Homepage")
+* from [leetcode q114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list "Flatten Binary Tree to Linked List")
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
