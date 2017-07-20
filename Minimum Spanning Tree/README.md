@@ -35,14 +35,7 @@ return A
 ```
 
 ### Complexity/Analysis
-Using __weighted union find with path compression__ in the solution code in this repository, constructing the union sets time complexity will be ___O(V)___, the amortized _union_ and _find_ operation time complexity will almost be ___O(1)___.
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
+The time complexity will not count the time of conversion between different graph representations (e.g. from matrix to edges list or vertices list). Kruskal's algorithm implementation will take O(ELogE) to sort all the edges, and the Union Find in this code implemented through __weighted union find with path compression__, in which constructing the union sets time complexity will be ___O(V)___, the amortized _union_ and _find_ operation time complexity will almost be ___O(1)___. So the total time complexity is O(ELogE) and O(E+V) space complexity
 
 ## Notes
-* The ___MST___ may not be
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+* The ___MST___ by definition can contains either _zero_ or _negative_ weight edges. In this implementation, for simplicity we just use 0 weight to prepresent no connection between vertices.
