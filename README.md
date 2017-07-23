@@ -1,6 +1,11 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### M017 (07/21/2017): Tree. Organizer: Himanshu, Michael
+* [Add One Row to Tree](./Add One Row to Tree)
+* [Check Whether a Binary Tree is a Complete Tree](./Check Whether a Binary Tree is a Complete Tree)
+* [Count Complete Tree Nodes](./Count Complete Tree Nodes)
+
 ### M016 (07/17/2017): Graph, Backtracking. Organizer: Shruti, Chris
 * [Minimum Spanning Tree](./Minimum%20Spanning%20Tree)
 * [Permutations](./Permutations)
