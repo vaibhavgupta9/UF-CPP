@@ -11,7 +11,8 @@ public class MSTTest {
 
     @Before
     public void setUp() throws Exception {
-        sol = new KruskalMST();
+//        sol = new KruskalMST();
+        sol = new PrimMST();
     }
 
     @Test
