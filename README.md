@@ -7,9 +7,9 @@ UF-CPP is a self organized small size coding practice Meetup. This repository ho
 * [Path Sum II](./Path%20Sum%20II)
 
 ### M017 (07/21/2017): Tree. Organizer: Himanshu, Michael
-* [Add One Row to Tree](./Add One Row to Tree)
-* [Check Whether a Binary Tree is a Complete Tree](./Check Whether a Binary Tree is a Complete Tree)
-* [Count Complete Tree Nodes](./Count Complete Tree Nodes)
+* [Add One Row to Tree](./Add%20One%20Row%20to%20Tree)
+* [Check Whether a Binary Tree is a Complete Tree](./Check%20Whether%20a%20Binary%20Tree%20is%20a%20Complete%20Tree)
+* [Count Complete Tree Nodes](./Count%20Complete%20Tree%20Nodes)
 
 ### M016 (07/17/2017): Graph, Backtracking. Organizer: Shruti, Chris
 * [Minimum Spanning Tree (Kruskal)](./Minimum%20Spanning%20Tree)
