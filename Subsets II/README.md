@@ -1,14 +1,27 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-## Brief Intro
-Tags: ___DP___, ___Easy___, ___Medium___, ___Hard___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___
+## Subsets II
+Tags: ___Medium___, ___Backtracking___, ___Array___
 
-If you want, you can put a brief Intro to the question.
+Given a collection of integers that might contain duplicates, nums, return all possible subsets.
+
+__Note__: The solution set must not contain duplicate subsets.
+
+For example,
+If `nums = [1,2,2]`, a solution is:
+```
+[
+  [2],
+  [1],
+  [1,2,2],
+  [2,2],
+  [1,2],
+  []
+]
+```
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com "Google's Homepage")
+* from [leetcode q090](https://leetcode.com/problems/subsets-ii)
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
