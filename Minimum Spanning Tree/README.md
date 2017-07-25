@@ -41,7 +41,6 @@ The time complexity will not count the time of conversion between different grap
 Prim’s algorithm is to attach a new edge to a single growing tree at each step.
 ### Algorithm
  Start with any vertex as a single-vertex tree; then add V1 edges to it, always taking next the minimum weight edge that connects a vertex on the tree to a vertex not yet on the tree (a crossing edge for the cut defined by tree vertices). The implementation in this repository is lazy prim, which means the eligibility of edge will be validated when the edge has been popped. There is another eager Prim implementation, which will maintain a minimum edge to each vertex when adding to the heap. The latter implementation will have a better space complexity.
-### Pseudo Code
 
 ### Complexity/Analysis
 The bottleneck in the algorithm is the number of edge-weight comparisons in the priority-queue(min-heap) methods insert() and delMin(). The number of edges on the priority queue is at most __E__, which gives the space bound. In the worst case, the cost of an insertion is ~__logE__ and the cost to delete the minimum is ~__2logE__. Since at most __E__ edges are inserted and at most __E__ are deleted, the time bound follows.
