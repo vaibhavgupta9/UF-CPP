@@ -28,14 +28,11 @@ return
 * from [leetcode q113](https://leetcode.com/problems/path-sum-ii "Path Sum II")
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
+This problem can be solved with DFS solution. The recursive implementation looks very similar to backtracking solution.
+The time complexity is __O(N)__ time and put __O(N)__ space (worst situation, tree is severely unbalanced) or __O(logN)__ space(best situation, tree is fully balanced) on the call stack.
 
-## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
+## Note
+* the tree node number can be either positive or negative
 
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+## Testing
+To use the test case, you should include AssertJ 3.8+ and JUnit 4.12+.
