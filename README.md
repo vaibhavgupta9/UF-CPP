@@ -1,6 +1,13 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### M019 (07/26/2017): Bit Manipulation. Organizer: Bhaveek
+* [Bitwise AND of Numbers Range](./Bitwise%20AND%20of%20Numbers%20Range)
+* [Number Complement](./Number%20Complement)
+* [Find the Difference](./Find%20the%20Difference)
+* [Single Number](./Single%20Number)
+* [Single Number II](./Single%20Number%20II)
+
 ### M018 (07/24/2017): Graph, Backtracking. Organizer: Chris, Shruti
 * [Minimum Spanning Tree (Prim)](./Minimum%20Spanning%20Tree)
 * [Subsets II](./Subsets%20II)
