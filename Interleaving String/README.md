@@ -1,6 +1,6 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-# Brief Intro
+# Interleaving String
 Tags:  ___Hard___, ___DP___, ___String___
 
 Given _s1, s2, s3_, find whether _s3_ is formed by the interleaving of _s1_ and _s2_.
