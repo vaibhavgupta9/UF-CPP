@@ -1,6 +1,12 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`
 
+### QA007 (08/02/2017)
+* [Beautiful Arrangement](./Beautiful%20Arrangement)
+* [2 Keys Keyboard](./2%20Keys%20Keyboard)
+* [4 Keys Keyboard](./4%20Keys%20Keyboard)
+* [Interleaving String](./Interleaving%20String)
+
 ### M020 (07/31/2017): Sorting. Organizer: Shruti
 * [Count Inversions in an Array](./Count%20Inversions%20in%20an%20Array)
 * [Sort Elements by Frequency](./Sort%20Elements%20by%20Frequency)
