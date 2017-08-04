@@ -31,13 +31,3 @@ The n will be in the range [1, 1000].
 For the linear solution, the worst case is the given number is a prime number, the case will take __O(N)__ time and __O(1)__ space to find the min steps.
 
 //TODO, DP solution
-
-## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
