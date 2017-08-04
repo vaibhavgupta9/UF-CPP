@@ -36,14 +36,4 @@ __Note:__
 * from [leetcode q651](https://leetcode.com/problems/4-keys-keyboard)
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
-
-## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+For each move number, we reserve at least three steps: select, copy, paste. And for the optimal result, we want to find somewhere P between [1,N], at optimal position P (after P steps), we select, copy, then paste, paste... until used up all steps. P must <= N-3 to guarantee there are 3 steps for the operation. Or the only possible operation is press 'A'. Suppose P is the optimal point to do the SCP (select, copy, paste), there are N-P steps remains. minus one step for select, one step for copy, the length of the string we can get after P, is N - P - 1 - 1 copies of the string at P steps. So the final length we can get is (N-P-1-1+1)*[string at P]. Starts from the N-3 step, we go way back to the first step, find the maximum length we can get. Both DP Recursive and Iterative solution will take O(N^2) time and O(N) space. There is also a reference webpage from [Geeks for Geeks](http://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/) explained the same idea. In the discussion board, someone mentioned in the iterative ways, there is no need to compare all the steps from i-3 to 1. (i>6) Through observation, the maximum step will always from i-4 step or i-5 step. So generally, the problem can be achieved in O(n), but the math proof is missing. Here is the link from [Leetcode Discussion](https://discuss.leetcode.com/topic/97631/two-java-dp-solution-o-n-2-and-o-n/2)
