@@ -1,10 +1,14 @@
 # UF-Coding/Programming Practice
 UF-CPP is a self organized small size coding practice Meetup. This repository holds the coding challenges in every Meetup as a resource for future reference. More info about the group can be found in our [Facebook Page](https://www.facebook.com/groups/453423804992985/). For every question commit/merge to the repository, you should put the [README template file](./q_template.md) in the question/problem folder as a README file, rename it to README.md using command `cp q_template.md path_to_q_folder/README.md`. You can also use the python script to help you do the previous step with command `python3 q_template.md -n "question name"`.
 
+### M022 (08/09/2017): Dynamic Programming.
+* [Gas Station](./Gas%20Station)
+* [Partition Equal Subset Sum](./Partition%20Equal%20Subset%20Sum)
+
 ### M021 (08/07/2017): Design Pattern. Organizer: Vaibhav, Chris
-* [Combination Sum III](./Combination Sum III)
-* [Maximum Binary Tree](./Maximum Binary Tree)
-* [Wiggle Subsequence](./Wiggle Subsequence)
+* [Combination Sum III](./Combination%20Sum%20III)
+* [Maximum Binary Tree](./Maximum%20Binary%20Tree)
+* [Wiggle Subsequence](./Wiggle%20Subsequence)
 #### Design Patterns
 * [Factory](./)
 * [Abstract Factory](./)
