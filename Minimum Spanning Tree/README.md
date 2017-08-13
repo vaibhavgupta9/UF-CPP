@@ -33,16 +33,17 @@ until all the vertices v in V are in A
 
 return A
 ```
+### Complexity/Analysis
+
+The time complexity will not count the time of conversion between different graph representations (e.g. from matrix to edges list or vertices list). Kruskal's algorithm implementation will take __O(ELogE)__ to sort all the edges, and the Union Find in this code implemented through __weighted union find with path compression__, in which constructing the union sets time complexity will be __O(V)__, the amortized _union_ and _find_ operation time complexity will almost be __O(1)__. So the total time complexity is __O(ELogE)__ and __O(E)__ space complexity
+
+## Prim's Minimum SPanning Tree Algorithm
+Prim’s algorithm is to attach a new edge to a single growing tree at each step.
+### Algorithm
+ Start with any vertex as a single-vertex tree; then add V1 edges to it, always taking next the minimum weight edge that connects a vertex on the tree to a vertex not yet on the tree (a crossing edge for the cut defined by tree vertices). The implementation in this repository is lazy prim, which means the eligibility of edge will be validated when the edge has been popped. There is another eager Prim implementation, which will maintain a minimum edge to each vertex when adding to the heap. The latter implementation will have a better space complexity.
 
 ### Complexity/Analysis
-Using __weighted union find with path compression__ in the solution code in this repository, constructing the union sets time complexity will be ___O(V)___, the amortized _union_ and _find_ operation time complexity will almost be ___O(1)___.
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
+The bottleneck in the algorithm is the number of edge-weight comparisons in the priority-queue(min-heap) methods insert() and delMin(). The number of edges on the priority queue is at most __E__, which gives the space bound. In the worst case, the cost of an insertion is ~__logE__ and the cost to delete the minimum is ~__2logE__. Since at most __E__ edges are inserted and at most __E__ are deleted, the time bound follows.
 
 ## Notes
-* The ___MST___ may not be
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+* The ___MST___ by definition can contains either _zero_ or _negative_ weight edges. In this implementation, for simplicity we just use 0 weight to prepresent no connection between vertices.

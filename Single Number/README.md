@@ -1,14 +1,17 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-# Brief Intro
-Tags: ___Easy___, ___Medium___, ___Hard___, ___DP___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___, ___Bit Manipulation___
+# Single Number
+Tags: ___Easy___, ___Hash Table___, ___Bit Manipulation___
 
-If you want, you can put a brief Intro to the question.
+Given an array of integers, every element appears twice except for one. Find that single one.
+
+__Note:__
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com)
+* from [Hacker Rank - Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer)
+* from [leetcode q136](https://leetcode.com/problems/single-number)
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.

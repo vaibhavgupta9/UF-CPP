@@ -29,14 +29,12 @@ So the maximum value of `F(0), F(1), F(2), F(3)` is `F(3) = 26`.
 * from [leetcode q396](https://leetcode.com/problems/rotate-function "Rotate Function")
 
 ## Complexity/Analysis
-The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
-
-## Notes
-The possible corner case includes
-* xxxxxxx
-* xxxxxxx
-* .....
-
-Using xxx will result stack overflow. xxxxxxx
-
-You can also add the guidance for how to use the test cases.
+ for Input A, B, C, D
+ ```
+ Base = A + B + C + D
+ F(0) = 0*A + 1*B + 2*C + k*D
+ F(1) = 1*A + 2*B + k*C + 0*D
+  ...
+ F(k) = F(k-1) + Base + (len-1)Array[k], 0<k<n, len is the max num of k, which is n
+ ```
+ The implementation uses __O(N)__ time to calc the base and use N iterations to calc all the __F(k)__, so time complexity is __O(N)__. Since it's an iterative implementation, the algorithm requires only constant space to store the intermediate results, so space complexity is __O(1)__

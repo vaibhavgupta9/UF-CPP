@@ -1,14 +1,26 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-# Brief Intro
-Tags: ___Easy___, ___Medium___, ___Hard___, ___DP___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___, ___Bit Manipulation___
+# Combination Sum III
+Tags: ___Medium___, ___Array___, ___Backtracking___
 
-If you want, you can put a brief Intro to the question.
+Find all possible combinations of ___k___ numbers that add up to a number ___n___, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
+
+
+__Example 1:__
+```
+Input: k = 3, n = 7
+Output: [[1,2,4]]
+```
+
+__Example 2:__
+```
+Input: k = 3, n = 9
+Output:
+[[1,2,6], [1,3,5], [2,3,4]]
+```
 
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com)
+* from [leetcode q216](https://leetcode.com/problems/combination-sum-iii)
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.

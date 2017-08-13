@@ -1,14 +1,20 @@
 [comment]: <> (This is a comment, it will not be included. For every question commit to the repository, you should put this readme file in the question/problem folder as a readme file, rename it to README.md)
 
-# Brief Intro
-Tags: ___Easy___, ___Medium___, ___Hard___, ___DP___, ___Tree___, ___BFS___, ___DFS___, ___Backtracking___, ___System Design___, ___Bit Manipulation___
+# Interleaving String
+Tags:  ___Hard___, ___DP___, ___String___
 
-If you want, you can put a brief Intro to the question.
+Given _s1, s2, s3_, find whether _s3_ is formed by the interleaving of _s1_ and _s2_.
 
+For example,
+Given:
+`s1 = "aabcc"`,
+`s2 = "dbbca"`,
+
+When `s3 = "aadbbcbcac"`, return true.
+
+When `s3 = "aadbbbaccc"`, return false.
 ## Source
-brief intro to the source of this question. e.g.,
-* from CCI page xxxx.
-* from [leetcode qxxx](https://www.google.com)
+* from [leetcode q097](https://leetcode.com/problems/interleaving-string)
 
 ## Complexity/Analysis
 The optimal solution can achieve ___O(N)___ time and ___O(N)___ space. Or another solution and achieve xxxxxxx.
